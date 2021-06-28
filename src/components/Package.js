@@ -93,11 +93,11 @@ const Package = ({ npmPackage }) => {
     return (
         <div style={styles.packageContainer}>
             <div style={styles.header}>
-                <h3>{name}</h3>
-                <h3>{`v${version}`}</h3>
+                <span><b>{name}</b></span>
+                <span><b>{`v${version}`}</b></span>
             </div>
             <div style={styles.content}>
-                <h4 style={styles.published}>{description}</h4>
+                <span style={styles.published}>{description}</span>
                 <div style={styles.keywords}>{keywords && keywords.length && getTags(keywords)}</div>
                 <div style={styles.links}>{links && Object.keys(links).length > 0 && getLinks(links)}</div>
                 <div style={styles.authorInfo}>
