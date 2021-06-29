@@ -14,3 +14,4 @@ export const BAD_URL = 'https://www.monkey.test.com';
 export const WRONG_PATH = 'WRONG_PATH';
 export const NO_RESULTS = 'NO_RESULTS';
 export const BAD_REQUEST = 'BAD_URL';
+export const secretCodeTarget = '123456';
